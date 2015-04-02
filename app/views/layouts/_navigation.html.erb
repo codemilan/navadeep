@@ -14,6 +14,12 @@
       <ul class="nav navbar-nav">
         <%= render 'layouts/navigation_links' %>
       </ul>
+      <form class="navbar-form navbar-right" role="search" method="get" id="searchform" action="">
+        <div class="form-group">
+          <input class="form-control" type="text" value="" placeholder="Search..." name="s" id="s">
+        </div>
+        <button type="submit" id="searchsubmit" value="" class="btn btn-success"><i class="glyphicon glyphicon-search"></i></button>
+      </form>
     </div>
   </div>
 </nav>

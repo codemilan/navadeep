@@ -44,3 +44,8 @@ section {
   @extend .row;
   margin-top: 20px;
   }
+
+// this is for hover dropdown
+.dropdown:hover .dropdown-menu {
+    display: block;
+ }
